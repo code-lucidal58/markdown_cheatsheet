@@ -50,3 +50,8 @@ Second method is same as for links, using references.. Those refernces hold the 
 [Second Father]: http://octodex.github.com/images/foundingfather_v2.png
 ```
 
+### Blockquotes
+To create a block quote, all you have to do is preface a line with the "greater than" caret (>).
+```text
+>"Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
+```
