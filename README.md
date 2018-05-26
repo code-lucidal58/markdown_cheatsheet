@@ -51,7 +51,11 @@ Second method is same as for links, using references.. Those refernces hold the 
 ```
 
 ### Blockquotes
-To create a block quote, all you have to do is preface a line with the "greater than" caret (>).
+A blockquote is a sentence or paragraph that's been specially formatted to draw attention to the reader. To create a block quote, all you have to do is preface a line with the "greater than" caret (>).
 ```text
 >"Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
 ```
+When quotes span multiple paragraph, each line must have caret(>).
+
+### Lists
+To create an unordered list, preface each item in the list with an asterisk ( * ). 
