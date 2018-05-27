@@ -59,3 +59,48 @@ When quotes span multiple paragraph, each line must have caret(>).
 
 ### Lists
 To create an unordered list, preface each item in the list with an asterisk ( * ). 
+```text
+* Flour
+* Cheese
+* Tomatoes
+```
+For ordered list, simply number them.
+```text
+1. Cut the cheese
+2. Slice the tomatoes
+3. Rub the tomatoes in flour
+```
+To create sublists, indent the item with *one space more* than the previous item
+```text
+* Calculus
+ * A professor
+ * Often wears green
+* Castafiore
+ * An opera singer
+ * Is possibly mentally unwell
+```
+Item can be indented and sublisted indefinitely, but it's usually a good idea to stop after three levels. To add description to list item without making a sublist, the description must start in a new line and at indented by atleast one space.
+```text
+* Castafiore
+ 
+  He is an opera singer
+ 
+  He is possibly mentally unwell
+```
+### Paragraphs
+In markdown, simply writing a sentence in new line won't actually render it in new line. If two new lines are inserted, then the rendered text will also have two new lines, thus breaking the togetherness. This is called *hard break". For *soft break*, insert two spaces at the end of the line.
+```text
+We pictured the meek mild creatures where  
+They dwelt in their strawy pen,  
+Nor did it occur to one of us there  
+To doubt they were kneeling then.
+```
+These can also be used for add descriptions to list, without extra new lines.
+```text
+1. Crack three eggs over a bowl.  
+ Now, you're going to want to crack the eggs in such a way that you don't make a mess.  
+ If you _do_ make a mess, use a towel to clean it up!
+
+2. Pour a gallon of milk into the bowl.  
+ Basically, take the same guidance as above: don't be messy, but if you are, clean it up!
+```
